@@ -1,5 +1,4 @@
 import {createRouter, createWebHistory} from "vue-router";
-// import {loadLocaleMessages, setI18nLanguage, SUPPORT_LOCALES} from "./i18n/index.ts";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,37 +6,35 @@ const router = createRouter({
         {
             path: "/",
             name: "Index",
-            component: () => import("./pages/Index.vue"),
+            component: () => import("./views/index/index.vue"),
         },
         {
             path: "/register",
-            name: "Register",
-            component: () => import("./pages/Register.vue"),
+            name: "UserRegister",
+            component: () => import("./views/authentic/register/index.vue"),
         },
         {
             path: "/login",
-            name: "Login",
-            component: () => import("./pages/Login.vue"),
+            name: "UserLogin",
+            component: () => import("./views/authentic/login/index.vue"),
+        },
+        {
+            path: "/admin",
+            name: "Admin",
+            component: () => import("@/views/admin/organization/category/index.vue"),
+            children:[
+                {
+                    path: "category",
+                    name: "AdminOrgCate",
+                    component: () => import("@/views/admin/organization/category/index.vue"),
+                },
+            ]
         },
     ],
 })
-// navigation guards
-// router.beforeEach(async (to, from, next) => {
-//     const paramsLocale = to.params.locale.toString();
-//
-//     // use locale if paramsLocale is not in SUPPORT_LOCALES
-//     if (!SUPPORT_LOCALES.includes(paramsLocale)) {
-//         return next(`/${locale}`)
-//     }
-//
-//     // load locale messages
-//     if (!i18n.global.availableLocales.includes(paramsLocale)) {
-//         await loadLocaleMessages(i18n, paramsLocale)
-//     }
-//
-//     // set i18n language
-//     setI18nLanguage(i18n, paramsLocale)
-//
-//     return next()
-// })
+router.beforeEach((to)=>{
+    if (to.meta.name != null){
+        document.title = to.meta.name.toString()
+    }
+})
 export default router;

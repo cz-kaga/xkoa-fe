@@ -1,0 +1,73 @@
+{
+    "PAGE_TITLE": {
+        "Index": "XKOA, I‘m a cat girl, nya~",
+        "UserRegister": "Sign up|XKOA",
+        "UserLogin": "Sign in|XKOA"
+    },
+    "TOP_MENU": {
+        "LOGO_NAME": "XKOA(Dev Only)",
+        "INFORMATION_CENTER": "Info",
+        "ORGANIZATION_CENTER": "Organizations",
+        "FORUM": "Forum",
+        "USEFUL_TOOLS": "Tools",
+        "USER_CENTER": "User"
+    },
+    "AUTHENTIC": {
+        "LOGIN_FORM": {
+            "TITLE": "",
+            "USERNAME": "Username",
+            "PASSWORD": "Password",
+            "LOGIN": "Login",
+            "REGISTER_LINK": "Don't have an account? Click here to register",
+            "INVALID_ACCOUNT_OR_PASSWORD": "Nya~ Account may not existed or Password isn't correct...",
+            "SUCCESSFUL_LOGIN": "Successfully login! Nya~"
+        },
+        "REGISTER_FORM": {
+            "TITLE": "",
+            "USERNAME": "Username",
+            "PASSWORD": "Password",
+            "REGISTER": "Register",
+            "PHONE": "Phone",
+            "EMAIL": "E-mail",
+            "LOGIN_LINK": "Already have an account? Click to login",
+            "SUCCESSFUL_REGISTER": "Congratulation! Account Successfully Registered Nya!",
+            "ACCOUNT_EXISTED": "Nya~ Master's account already existed!",
+            "UNKNOWN_ERROR": "Oops, Master encounters unknown problem!"
+        }
+    },
+    "ORGANIZATION": {
+        "REGISTER_FORM": {
+            "NAME": "Organization Name",
+            "CATEGORY": "Category",
+            "SUPERIOR": "Superior Department",
+            "DESCRIPTION": "Description"
+        }
+    },
+    "ADMIN": {
+        "HEADER": {
+            "TITLE": "XKOA",
+            "SUBTITLE": "Manage Board"
+        },
+        "SIDE_MENU": {
+            "ORGANIZATION": {
+                "TITLE": "Organization  Management",
+                "CATEGORY": "Organization Category",
+                "MANAGEMENT": "Organizations"
+            },
+            "SYSTEM": {
+                "TITLE": "System Management",
+                "TOOLS": "Useful Tools"
+            }
+        },
+        "ORGANIZATION": {
+            "CATEGORY": {
+                "LIST_TITLE": "Organization Categories",
+                "INSERT_BUTTON": "Add",
+                "INSERT_SHEET_TITLE": "Adding Category",
+                "INSERT_SHEET_NAME": "Category",
+                "INSERT_SHEET_DESCRIPTION": "Description"
+            }
+        }
+    }
+
+}

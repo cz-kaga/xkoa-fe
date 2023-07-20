@@ -1,17 +1,16 @@
 <script setup lang="ts">
 
-import LoginForm from "../components/Login/LoginForm.vue";
+import RegisterForm from "./RegisterForm.vue";
 </script>
 
 <template>
-  <a-row style="margin-top: 10%">
+  <a-row style="margin-top: 5%">
     <a-col :flex="4"></a-col>
     <a-col :flex="4">
-      <LoginForm/>
+      <RegisterForm/>
     </a-col>
     <a-col :flex="4"></a-col>
   </a-row>
-
 </template>
 
 <style scoped>

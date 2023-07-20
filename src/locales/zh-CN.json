@@ -1,0 +1,79 @@
+{
+    "PAGE_TITLE": {
+        "Index": "西科OA,想变猫娘",
+        "UserRegister": "用户注册|西科OA",
+        "UserLogin": "用户登录|西科OA"
+    },
+    "TOP_MENU": {
+        "LOGO_NAME": "西科OA(开发版)",
+        "INFORMATION_CENTER": "信息聚合",
+        "ORGANIZATION_CENTER": "组织中心",
+        "FORUM": "论坛系统",
+        "USEFUL_TOOLS": "实用工具",
+        "USER_CENTER": "用户中心"
+    },
+    "AUTHENTIC": {
+        "LOGIN_FORM": {
+            "TITLE": "用户登录",
+            "USERNAME": "用户名",
+            "PASSWORD": "密码",
+            "LOGIN": "登录",
+            "REGISTER_LINK": "还没有账户? 点此注册",
+            "INVALID_ACCOUNT_OR_PASSWORD": "用户名或密码错误喵...",
+            "SUCCESSFUL_LOGIN": "登录成功啦喵~"
+        },
+        "REGISTER_FORM": {
+            "TITLE": "用户注册",
+            "USERNAME": "用户名",
+            "PASSWORD": "密码",
+            "REGISTER": "注册",
+            "PHONE": "手机号码",
+            "EMAIL": "电子邮箱",
+            "LOGIN_LINK": "已经有账户? 点此登录",
+            "SUCCESSFUL_REGISTER": "注册成功了喵!",
+            "ACCOUNT_EXISTED": "账号已存在了喵~",
+            "UNKNOWN_ERROR": "遇到了未知错误...呜..."
+        }
+    },
+    "ORGANIZATION": {
+        "REGISTER_FORM": {
+            "NAME": "组织名称",
+            "CATEGORY": "组织类别",
+            "SUPERIOR": "主管部门",
+            "DESCRIPTION": "组织介绍"
+        }
+    },
+    "ADMIN": {
+        "HEADER": {
+            "TITLE": "西科OA",
+            "SUBTITLE": "管理面板"
+        },
+        "SIDE_MENU": {
+            "ORGANIZATION": {
+                "TITLE": "组织管理",
+                "CATEGORY": "组织类别管理",
+                "MANAGEMENT": "组织管理"
+            },
+            "SYSTEM": {
+                "TITLE": "系统管理",
+                "TOOLS": "实用工具管理"
+            },
+            "INFORMATION": {
+                "TITLE": "信息管理",
+                "BROADCAST": "公告管理",
+                "ADVANCE": "高级设置"
+            }
+
+        },
+        "ORGANIZATION": {
+            "CATEGORY": {
+                "LIST_TITLE": "组织类型",
+                "INSERT_BUTTON": "新增类型",
+                "INSERT_SHEET_TITLE": "新增类型",
+                "INSERT_SHEET_NAME": "类型",
+                "INSERT_SHEET_DESCRIPTION": "简介"
+            }
+        }
+    }
+
+}

@@ -5,12 +5,12 @@ const {t} = useI18n();
 
 <template>
   <a-menu mode="horizontal" >
-    <a-menu-item key="logoname" disabled>{{ t('TopMenu.logoname') }}</a-menu-item>
-    <a-menu-item key="info">{{ t('TopMenu.information') }}</a-menu-item>
-    <a-menu-item key="org">{{ t('TopMenu.organizations') }}</a-menu-item>
-    <a-menu-item key="forum">{{ t('TopMenu.forum') }}</a-menu-item>
-    <a-menu-item key="tool">{{ t('TopMenu.usefulTools') }}</a-menu-item>
-    <a-menu-item key="user">{{ t('TopMenu.userCenter') }}</a-menu-item>
+    <a-menu-item key="logoname" disabled>{{ t('TOP_MENU.LOGO_NAME') }}</a-menu-item>
+    <a-menu-item key="info">{{ t('TOP_MENU.INFORMATION_CENTER') }}</a-menu-item>
+    <a-menu-item key="org">{{ t('TOP_MENU.ORGANIZATION_CENTER') }}</a-menu-item>
+    <a-menu-item key="forum">{{ t('TOP_MENU.FORUM') }}</a-menu-item>
+    <a-menu-item key="tool">{{ t('TOP_MENU.USEFUL_TOOLS') }}</a-menu-item>
+    <a-menu-item key="user">{{ t('TOP_MENU.USER_CENTER') }}</a-menu-item>
   </a-menu>
 </template>
 
